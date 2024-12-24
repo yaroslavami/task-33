@@ -1,4 +1,7 @@
 /* App.css */
+body{
+  background-color: rgb(135, 181, 165);
+}
 .container {
   text-align: center;
   margin-top: 50px;

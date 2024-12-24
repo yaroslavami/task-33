@@ -20,10 +20,10 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Конвертер одиниць вимірювання</h1>
-      <UnitInput unit="Сантиметри" value={centimeters} onChange={handleCentimetersChange} />
-      <UnitInput unit="Міліметри" value={millimeters} onChange={handleMillimetersChange} />
-      {isOverOneMeter && <p className="message">Довжина більше 1 метра!</p>}
+      <h1>Unit converter</h1>
+      <UnitInput unit="Centimetres" value={centimeters} onChange={handleCentimetersChange} />
+      <UnitInput unit="Millimetres" value={millimeters} onChange={handleMillimetersChange} />
+      {isOverOneMeter && <p className="message">Length is bigger than 1 metre!</p>}
     </div>
   );
 };
